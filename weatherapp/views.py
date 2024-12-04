@@ -9,7 +9,7 @@ def home(request):
     else:
         city = 'Addis Ababa'
 
-    api_key = "90358d4365aab41c6ebdd9cf13f81808"
+    api_key = ""
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}"
     
     # Define the parameters for the request (e.g., temperature in Celsius)
